@@ -1,0 +1,117 @@
+.background {
+  background: linear-gradient(46deg, #83c5be 0%, rgba(0, 0, 0, 0.00) 100%);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.artistForm {
+  width:90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: x-large;
+}
+
+.logout {
+  margin-top: auto;
+  margin-left: auto;
+}
+
+.typewriting {
+  color:white;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left:0px;
+  right:0px;
+  text-align: center;
+}
+.genResults {
+  margin: auto;
+}
+
+.createButton {
+  margin:auto
+}
+
+.topLeft {
+  height: 400px;
+  position: absolute;
+  top: 75;
+  left: 50%;
+}
+
+.moving-div {
+  margin-left: auto;
+  margin-top: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 50px;
+  background-color: #1DB954;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  transition: top 0.1s ease; 
+  top: 75;
+}
+
+.playlistAutofill {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* display: 'grid'; */
+  gap: '10px';
+  background-color: transparent;
+}
+
+.line {
+  border-left: 6px solid green;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 75;
+}
+.firstHalf  {
+  margin-top: 400px;
+  position: absolute;
+}
+
+.grids {
+  border: 2px solid black;
+  padding: 6px;
+  text-align: center;
+  width:100%;
+  height: 450px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+.analyzationGrid {
+  width: 90%;
+  position: absolute;
+  top: 70%;
+  padding: 50px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.gridItem {
+  padding:30px;
+  margin:auto;
+}
+
+.loadBar {
+  padding-bottom: 50px;
+  width: 25%;
+  margin: auto;
+}
+
+.albumCover {
+  border-radius: 25px;
+}
