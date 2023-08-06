@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Grid, Typography, Rating, Button } from "@mui/material";
 import axios from "axios";
-import AlertDialog from "./SwitchTrack";
 import AspectRatio from '@mui/joy/AspectRatio';
 import Card from '@mui/joy/Card';
 import CardContent from '@mui/joy/CardContent';
@@ -153,10 +152,6 @@ const AnalyzationGrid = (props) => {
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   />
                 </AspectRatio>
-                <AlertDialog
-                    open={opened}
-                    setOpen={setOpened}
-                ></AlertDialog>
                 <IconButton
                   aria-label="Like minimal photography"
                   size="md"
