@@ -1,6 +1,6 @@
 # 🎵 Playlistify! 🎵
 
-Ever wondered how good your playlist *really* is? Wanted to check before the long road trip to make sure it would have your friends belting every word? Wait... this isn't a sales pitch, this is a readme. Clone, run `npm i`, then `npm start` to see what I made!
+Ever wondered how good your playlist *really* is? Wanted to check your bluetooth setlist before the long road trip to make sure it would have your friends belting every word? Wait... this isn't a sales pitch, this is a readme. Clone, run `npm i`, then `npm start` to see what I made!
 
 ![image](https://github.com/colesnic/playlistify/assets/92275914/82f6678b-c864-491d-8673-ec119206485b)
 ![image](https://github.com/colesnic/playlistify/assets/92275914/144afaaa-f1e6-4f67-bce3-92f5b070c6dc)
