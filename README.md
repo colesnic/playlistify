@@ -6,7 +6,7 @@ Ever wondered how good your playlist *really* is? Wanted to check before the lon
 ![image](https://github.com/colesnic/playlistify/assets/92275914/144afaaa-f1e6-4f67-bce3-92f5b070c6dc)
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I used MUI for a lot of the icons because I thought they were really sleek and fit in well with the overall concept. If a website is going to claim to enhance your playlist and revamp your musical social credit, the UI should be equally modern and easy to look at.
 
 ## Installation
 
