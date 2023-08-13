@@ -7,17 +7,11 @@ import { Button } from "@mui/material";
 import axios from "axios";
 import Typewriter from "./TypeWriter";
 
-// const CLIENT_ID = process.env.CLIENT_ID;
-// const REDIRECT_URI = process.env.REDIRECT_URI;
-// const AUTH_ENDPOINT = process.env.AUTH_ENDPOINT;
-// const RESPONSE_TYPE = process.env.RESPONSE_TYPE;
-// const SCOPE = process.env.SCOPE;
-
-const CLIENT_ID="2d99a41c7a5a46718161bdb4ee90a2bd"
-const REDIRECT_URI = "http://localhost:3000";
-const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize?";
-const RESPONSE_TYPE = "token";
-const SCOPE = "playlist-read-private";
+const CLIENT_ID = process.env.CLIENT_ID;
+const REDIRECT_URI = process.env.REDIRECT_URI;
+const AUTH_ENDPOINT = process.env.AUTH_ENDPOINT;
+const RESPONSE_TYPE = process.env.RESPONSE_TYPE;
+const SCOPE = process.env.SCOPE;
 
 function App() {
   const [token, setToken] = useState("");
