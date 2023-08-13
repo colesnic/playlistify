@@ -1,23 +1,22 @@
 # 🎵 Playlistify! 🎵
 
-Ever wondered how good your playlist *really* is? Wanted to check your bluetooth setlist before the long road trip to make sure it would have your friends belting every word? Wait... this isn't a sales pitch, this is a readme. Clone, run `npm i`, then `npm start` to see what I made!
+A React web app that calculates the "singability" of your playlist tracks and rates them on a 5-star basis.
 
 ![image](https://github.com/colesnic/playlistify/assets/92275914/82f6678b-c864-491d-8673-ec119206485b)
 ![image](https://github.com/colesnic/playlistify/assets/92275914/144afaaa-f1e6-4f67-bce3-92f5b070c6dc)
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I used MUI for a lot of the icons because I thought they were really sleek and fit in well with the overall concept. If a website is going to claim to enhance your playlist and revamp your musical social credit, the UI should be equally modern and easy to look at.
-
 ## Installation
 
-Please run `npm i` to start the application.
+1. If this is your first time cloning a repository, follow [this](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+2. Once you've cloned the repo, navigate to the root of the repository
+4. In your terminal, run `npm install`
+5. Create or navigate to a .env file and input your Spotify App details as seen below
 
-## Available Scripts
+```
+# file: .env
+REACT_APP_SPOTIFY_CLIENT_ID=<client-id>
+REACT_APP_SPOTIFY_REDIRECT_URI=http://localhost:3000 (or another port)
+REACT_APP_SPOTIFY_AUTH_ENDPOINT=https://accounts.spotify.com/authorize?
+```
 
-In the project directory, you can run `npm start` to start the application locally.
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+6. Run `npm start` in your terminal and navigate to http://localhost:3000 or the local port that you set in your `.env` file
