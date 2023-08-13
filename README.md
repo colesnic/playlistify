@@ -1,4 +1,4 @@
-# 🎵 Playlistify! 🎵
+# 🎵 Playlistify 🎵
 
 A React web app that calculates the "singability" of your playlist tracks and rates them on a 5-star basis.
 
