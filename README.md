@@ -2,8 +2,8 @@
 
 A React web app that calculates the "singability" of your playlist tracks and rates them on a 5-star basis.
 
-![image](https://github.com/colesnic/playlistify/assets/92275914/82f6678b-c864-491d-8673-ec119206485b)
-![image](https://github.com/colesnic/playlistify/assets/92275914/144afaaa-f1e6-4f67-bce3-92f5b070c6dc)
+![image](./src/static/images/main_no_songs.png)
+![image](./src/static/images/main_with_songs.png)
 
 ## Installation
 
