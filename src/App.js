@@ -7,11 +7,11 @@ import { Button } from "@mui/material";
 import axios from "axios";
 import Typewriter from "./TypeWriter";
 
-const CLIENT_ID = process.env.CLIENT_ID;
-const REDIRECT_URI = process.env.REDIRECT_URI;
-const AUTH_ENDPOINT = process.env.AUTH_ENDPOINT;
-const RESPONSE_TYPE = process.env.RESPONSE_TYPE;
-const SCOPE = process.env.SCOPE;
+const CLIENT_ID = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
+const REDIRECT_URI = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
+const AUTH_ENDPOINT = process.env.REACT_APP_AUTH_ENDPOINT;
+const RESPONSE_TYPE = "token";
+const SCOPE = "playlist-read-private";
 
 function App() {
   const [token, setToken] = useState("");
